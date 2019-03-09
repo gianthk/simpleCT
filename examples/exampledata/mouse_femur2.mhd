@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = True
+CompressedData = False
+TransformMatrix = 1  0  0  0  1  0  0  0  1
+CenterOfRotation = 0  0  0
+AnatomicalOrientation = RAI
+Offset = 0  0  0
+ElementSpacing = 0.05       0.05       0.05
+DimSize = 63  49  103
+ElementNumberOfChannels = 1
+ElementType = MET_UCHAR
+ElementDataFile = mouse_femur2.raw
