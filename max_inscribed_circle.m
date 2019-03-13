@@ -87,7 +87,7 @@ end
 
 BW=bwdist(logical(ContourImage));
 [Mx, My]=meshgrid(1:sz(2), 1:sz(1));
-[Vin Von]=inpoly([Mx(:),My(:)],[X,Y]);
+[Vin Von]=inpoly2([Mx(:),My(:)],[X,Y]);
 ind=sub2ind(sz, My(Vin),Mx(Vin));
 [R RInd]=max(BW(ind)); 
 R=R(1); RInd=RInd(1); % handle multiple solutions: Just take first.
