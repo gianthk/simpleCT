@@ -17,12 +17,12 @@ Suggested readings
 
 Book chapters on bone imaging and bone histomorphometry
 
-*   Cowin, Stephen C. Bone mechanics handbook. CRC press, 2001. - CHAPTER 9 - Imaging of Bone, Peter Rüegsegger
+*   [Cowin, Stephen C. Bone mechanics handbook. CRC press, 2001. - CHAPTER 9 - Imaging of Bone, Peter Rüegsegger](https://www.crcpress.com/Bone-Mechanics-Handbook/Cowin/p/book/9780849391170)
 *   Cowin, Stephen C. Bone mechanics handbook. CRC press, 2001. - CHAPTER 14 - Quantification of Cancellous Bone Architecture - Anders Odgaard
 
 Nomenclature for bone histomorphometry:
 
-*   Dempster DW, Compston JE, Drezner MK, Glorieux FH, Kanis JA, Malluche H, Meunier PJ, Ott SM, Recker RR, Parfitt AM. Standardized nomenclature, symbols, and units for bone histomorphometry: a 2012 update of the report of the ASBMR Histomorphometry Nomenclature Committee. Journal of bone and mineral research. 2013 Jan 1;28(1):2-17.
+*   [Dempster DW, Compston JE, Drezner MK, Glorieux FH, Kanis JA, Malluche H, Meunier PJ, Ott SM, Recker RR, Parfitt AM. Standardized nomenclature, symbols, and units for bone histomorphometry: a 2012 update of the report of the ASBMR Histomorphometry Nomenclature Committee. Journal of bone and mineral research. 2013 Jan 1;28(1):2-17.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3672237/)
 
 Kaywords: CT, bone histomorphometry, BMD, HR-pQCT
 
@@ -46,7 +46,7 @@ The following operations have already been performed on the data that you just l
 
 The method for automatic separation of the cortical compartment on HR-pQCT images implemented in the Scanco IPL is described here:
 
-*   Burghardt, A. J., Buie, H. R., Laib, A., Majumdar, S., & Boyd, S. K. (2010). Reproducibility of Direct Quantitative Measures of Cortical Bone Micro-architecture of the Distal Radius and Tibia by HR-pQCT. Bone, 47(3), 519–528. http://doi.org/10.1016/j.bone.2010.05.034
+*   [Burghardt, A. J., Buie, H. R., Laib, A., Majumdar, S., & Boyd, S. K. (2010). Reproducibility of Direct Quantitative Measures of Cortical Bone Micro-architecture of the Distal Radius and Tibia by HR-pQCT. Bone, 47(3), 519–528.](http://doi.org/10.1016/j.bone.2010.05.034)
 
 To start, a fixed global threshold is calculated as the 40% of the maximum Gray Value within the scanned volume.
 ```matlab
