@@ -2,7 +2,7 @@
 ### A Matlab toolbox for Computed Tomography (CT) image processing
 
 Get started with the following examples:
-- [Example #1](https://github.com/gianthk/simpleCT/blob/master/examples/ex01_simplect_intro.MD): Introduction to the toolbox
+- [Example #1](https://github.com/gianthk/simpleCT/blob/master/examples/ex01_simplect_intro.MD): introduction to the toolbox
 - [Example #2](https://gianthk.github.io/simpleCT/): first bone histomorphometry steps
 
 Documentation on [github](https://gianthk.github.io/simpleCT/)
