@@ -8,7 +8,7 @@ Get started with the following examples:
 Documentation on [github](https://gianthk.github.io/simpleCT/)
 
 List of dependencies:
-- [MATLAB and Octave Functions for Computer Vision and Image Processing by Peter Kovesi](https://www.peterkovesi.com/matlabfns/)
+- [MATLAB and Octave Functions for Computer Vision and Image Processing](https://www.peterkovesi.com/matlabfns/) by [Peter Kovesi](https://www.peterkovesi.com)
 - (included) [strel3d](https://de.mathworks.com/matlabcentral/fileexchange/47937-3d-structuring-element-sphere) by Luke Xie
 - (included) [max_inscribed_circle by Tolga Birdal]( https://de.mathworks.com/matlabcentral/fileexchange/30805-maximum-inscribed-circle-using-distance-transform)
 - (included) [isodata](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/65910/versions/2/previews/bendingFatigue_analysisTool/functions/isodata.m/index.html) by zephyr
