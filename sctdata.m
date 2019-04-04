@@ -9,7 +9,7 @@ classdef sctdata < handle
 %   Created on:   13/10/2016
 %   Last update:  09/03/2019
 %
-%   this class is part of the synchro toolbox    
+%   this class is part of the simpleCT toolbox    
 %   ______________________________________________________
 
 properties
@@ -1781,7 +1781,7 @@ methods
     %   Created on:   29/01/2019
     %   Last update:  29/01/2019
     %
-    %   this function is part of the synchro toolbox    
+    %   this function is part of the simpleCT toolbox    
     %   _____________________________________________________
     
     if nargin < 5,          crop = false;    end
@@ -1863,7 +1863,7 @@ methods
     %   Created on:   03/12/2017
     %   Last update:  08/07/2018
     %
-    %   this function is part of the synchro toolbox    
+    %   this function is part of the simpleCT toolbox    
     %   _____________________________________________________
     
     if nargin < 2,   filename = this.headerfile;   end
@@ -1930,7 +1930,7 @@ methods
     %   Created on:   04/12/2017
     %   Last update:  04/12/2017
     %
-    %   this function is part of the synchro toolbox    
+    %   this function is part of the simpleCT toolbox    
     %   _____________________________________________________
     
     if nargin < 2,   filename = this.headerfile;   end
@@ -1950,7 +1950,7 @@ methods
     %   Created on:   04/12/2017
     %   Last update:  04/12/2017
     %
-    %   this function is part of the synchro toolbox    
+    %   this function is part of the simpleCT toolbox    
     %   _____________________________________________________
     
     if nargin < 2,   filename = this.headerfile;   end

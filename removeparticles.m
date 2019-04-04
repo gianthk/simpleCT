@@ -91,11 +91,11 @@ function [BWout] = connectivityparticles(BW, p2)
     BW2 = bwareaopen(BW2,1000);
     % dilate back
     BW3 = imdilate(BW2, strel('square', 2));
-    % tentative particles are the difference between BW5 nd BW
+    % first guess particles are the difference between BW5 nd BW
     particles = BW & not(BW3);
     % particle props
     props = regionprops(particles, 'Area', 'PixelIdxList');
-    % dilate the image without temptative particles
+    % dilate the image without first guess particles
     BW3 = imdilate(BW3, strel('disk', 1));
     % contact pixels are pixels belonging to both particle and dilated BW6
     for i=1:length(props)
