@@ -1,7 +1,7 @@
 simpleCT: functions for bone histomorphometry
 -----------
 
-This example illustrates the use of some of the functions included i nsimplect for the quantitative analysis of bone's density and 3-D histomorphometry.
+This example illustrates the use of some of the functions included in simpleCT for the quantitative analysis of bone's density and 3D histomorphometry.
 
 Contents
 --------
