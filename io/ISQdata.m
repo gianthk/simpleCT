@@ -23,7 +23,7 @@ classdef ISQdata < handle
             %   ______________________________________________________
             %
             %   Author:     Vantte Kilappa
-            %   Maintainer: Gianluca Iori (gianluca.iori@charite.de)
+            %   Maintainer: Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   --/--/----
             %   Last update:  09/01/2018
@@ -103,7 +103,7 @@ classdef ISQdata < handle
             %   [headerinfo,fid] = ISQdata.readheader(filename,leaveopen)  reads header and leaves file open
             %   ______________________________________________________
             %
-            %   Author: Gianluca Iori (gianluca.iori@charite.de)
+            %   Author: Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   16/11/2015
             %   Last update:  09/01/2018

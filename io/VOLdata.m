@@ -74,7 +74,7 @@ classdef VOLdata < handle
             %   [headerinfo,fid] = ISQdata.readheader(filename,leaveopen)  reads header and leaves file open
             %   ______________________________________________________
             %
-            %   Author: Gianluca Iori (gianluca.iori@charite.de)
+            %   Author: Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   16/11/2015
             %   Last update:  09/01/2018

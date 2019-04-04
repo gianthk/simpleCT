@@ -49,7 +49,7 @@ classdef medtooltable < handle
             %   tab = readtable(filename)           reads table data
             %   ______________________________________________________
             %
-            %   Author:         Gianluca Iori (gianluca.iori@charite.de)
+            %   Author:         Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   27/06/2016
             %   Last update:  07/12/2017
@@ -121,7 +121,7 @@ classdef medtooltable < handle
             %   writetable(table, filename)      writes table to given file
             %   ______________________________________________________
             %
-            %   Author:         Gianluca Iori (gianluca.iori@charite.de)
+            %   Author:         Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   27/12/2016
             %   Last update:  04/08/2017

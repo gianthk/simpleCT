@@ -5,7 +5,7 @@ function [ check ] = writeVTKunstructured_grid( filename, points, point_data )
 %       
 %   ______________________________________________________
 %
-%   Author:         Gianluca Iori (gianluca.iori@charite.de)
+%   Author:         Gianluca Iori (gianthk.iori@gmail.com)
 %   BSRT - Charite Berlin
 %   Created on:   14/03/2017
 %   Last update:  14/03/2017

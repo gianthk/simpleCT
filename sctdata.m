@@ -265,7 +265,7 @@ methods
     %                   pippo.crop_pixel('bbox').showslice
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   29/10/2016
     %   Last update:  09/03/2019
@@ -348,7 +348,7 @@ methods
     %                   pippo.crop_pixel(200, 200, 1).showslice
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   27/12/2016
     %   Last update:  27/12/2016
@@ -430,7 +430,7 @@ methods
     %                   pippo.crop_pixel(300, 400, 1, 200, 200, 1).showslice
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   27/12/2016
     %   Last update:  27/12/2016
@@ -534,7 +534,7 @@ methods
     %                   pippo_res = pippo.resample(10)
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   29/10/2016
     %   Last update:  14/11/2016
@@ -621,7 +621,7 @@ methods
     %       Rule used:  BMDROI = ROI.*(slope_dens/muScaling) + offset_dens;
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   31/10/2016
     %   Last update:  09/03/2019
@@ -727,7 +727,7 @@ methods
     %                   pippo.setdatarange(-100, 2000);
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   01/11/2016
     %   Last update:  01/11/2016
@@ -768,7 +768,7 @@ methods
     %                   [N, bins] = pippo.hist(ROI, 256)	% histogram of given ROI
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   09/11/2016
     %   Last update:  09/11/2016
@@ -909,7 +909,7 @@ methods
     %     %                   pippo.threshold.showslice               	% display thresholded mid slice
     %     %   ______________________________________________________
     %     %
-    %     %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %     %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %     %   BSRT - Charite Berlin
     %     %   Created on:   25/10/2016
     %     %   Last update:  01/02/2017
@@ -1099,7 +1099,7 @@ methods
     %                   pippo.showmaskslice(120)	% displays slice 120
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   02/11/2016
     %   Last update:  02/11/2016
@@ -1138,7 +1138,7 @@ methods
         %                   pippo.showslice(ROI, 30)	% histogram of given ROI
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   01/11/2016
         %   Last update:  09/11/2016
@@ -1278,7 +1278,7 @@ methods
         %                   pippo.loadMHD('./pippo.mhd',[20:30]);
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   13/10/2016
         %   Last update:  20/07/2017
@@ -1323,7 +1323,7 @@ methods
     %                   pippo.loadDICOM;
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   31/10/2016
     %   Last update:  31/01/2018
@@ -1371,8 +1371,7 @@ methods
         %   size_x, size_y, size_z  size (in pixels) to be read
         %
         %   example call:   pippo =  sctdata
-        %                   pippo.readISQ('\\charite.de\centren\#Charite-Central\BCRT\AG-raum-qbam-archiv-read\2015.003.qbam.TaCoSound\data\XtremeCT-II\femur\1955_L\C0001577.ISQ');
-        %                   
+        %                   pippo.readISQ('mouse_femur2.mhd');
         %   ______________________________________________________
         %
         %   Author: Gianluca Iori (gianthk.iori@gmail.com)
@@ -1464,7 +1463,7 @@ methods
     %                   pippo.loadVolFloat32;
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   19/01/2018
     %   Last update:  19/01/2018
@@ -1498,10 +1497,10 @@ methods
         %   the method is intended for reading and downsampling of large ISQ volume files
         %   
         %   example call:   pippo =  sctdata
-        %                   pippo.resampleISQ('\\charite.de\centren\#Charite-Central\BCRT\AG-raum-qbam-archiv-read\2015.003.qbam.TaCoSound\data\XtremeCT-II\femur\1955_L\C0001577.ISQ', 10);
+        %                   pippo.resampleISQ('yourISQfile.ISQ', 10);
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   21/11/2016
         %   Last update:  10/01/2018
@@ -1618,7 +1617,7 @@ methods
     %                   pippo.readWAVE('./pippo.mat');
     %   ______________________________________________________
     %
-    %   Author:     Gianluca Iori (gianluca.iori@charite.de)
+    %   Author:     Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   02/11/2016
     %   Last update:  19/12/2016
@@ -1697,7 +1696,7 @@ methods
         %   example call:   pippo.writeMHD('./pippo.mhd');
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   22/10/2016
         %   Last update:  22/10/2016

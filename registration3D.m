@@ -180,7 +180,7 @@ methods (Static = true)
     %   graphics (logical) = true activates graphical output.
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   01/12/2015
     %   Last update:  14/03/2017
@@ -339,7 +339,7 @@ methods (Static = true)
         %       sctdata1outdata     (2D or 3D matrix)
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   03/01/2017
         %   Last update:  03/01/2017
@@ -369,7 +369,7 @@ methods (Static = true)
         %       sctdata1outdata     (2D matrix)
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   22/02/2018
         %   Last update:  22/02/2018
@@ -422,7 +422,7 @@ methods (Static = true)
         %       sctdata1outdata     (3D matrix)
         %   ______________________________________________________
         %
-        %   Author: Gianluca Iori (gianluca.iori@charite.de)
+        %   Author: Gianluca Iori (gianthk.iori@gmail.com)
         %   BSRT - Charite Berlin
         %   Created on:   22/02/2018
         %   Last update:  22/02/2018
@@ -489,7 +489,7 @@ methods (Static = true)
     %   returns [size(stack,3) x 1] array of slicewise correlation coefficients
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   17/11/2016
     %   Last update:  22/12/2017
@@ -529,7 +529,7 @@ methods (Static = true)
     %                   data after resize.
     %   ______________________________________________________
     %
-    %   Author: Gianluca Iori (gianluca.iori@charite.de)
+    %   Author: Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
     %   Created on:   17/11/2016
     %   Last update:  22/12/2017

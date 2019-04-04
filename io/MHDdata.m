@@ -43,7 +43,7 @@ classdef MHDdata < handle
             %   ______________________________________________________
             %
             %   Author:     Vantte Kilappa
-            %   Maintainer: Gianluca Iori (gianluca.iori@charite.de)
+            %   Maintainer: Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   --/--/----
             %   Last update:  10/02/2018
@@ -237,7 +237,7 @@ classdef MHDdata < handle
             %   ______________________________________________________
             %
             %   Author:         Vantte Kilappa
-            %   Maintainer:     Gianluca Iori (gianluca.iori@charite.de)
+            %   Maintainer:     Gianluca Iori (gianthk.iori@gmail.com)
             %   BSRT - Charite Berlin
             %   Created on:   --/02/2016
             %   Last update:  13/03/2018
