@@ -2,7 +2,10 @@
 %   histomorphometric analysis from SAM images
 %   
 %   This script contains the SAM image processing described in the paper:
-%   Iori G, Schneider J, Reisinger A, Heyer F, Peralta L, Wyers C, et al. Large cortical bone pores in the tibia are associated with proximal femur strength. PLOS ONE. doi:10.1371/journal.pone.0215405
+%       Iori G, Schneider J, Reisinger A, Heyer F, Peralta L, Wyers C, et al. Large cortical bone pores in the tibia are associated with proximal femur strength. PLOS ONE. doi:10.1371/journal.pone.0215405
+%
+%   This script is also available at:
+%       https://doi.org/10.5281/zenodo.2605365
 %
 %   preliminary operations:
 %   - SAM RF signals are already converted to maps of the surface's acoustic impedance
