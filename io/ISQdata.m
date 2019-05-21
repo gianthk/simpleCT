@@ -1,13 +1,19 @@
 classdef ISQdata < handle
-    %ISQDATA class for Scanco Medical ISQ data input
-    %   Detailed explanation goes here
+    %ISQDATA class for reading Scanco Medical ISQ data
+    %   includes the following methods:
+    %       - LOAD          load entire or portion of ISQ dataset (UI available)
+    %       - READDATA      load portion of ISQ dataset
+    %                       mydata = ISQdata.readdata('myisqfile.ISQ',200,200,400,100,100,100);     % load a 100x100x100 sub volume from ISQ dataset
+    %       - READHEADER    read Scanco ISQ file header
+    %       - READSLICES    load a slices-set from ISQ dataset
+    %       - RESAMPLE      load and resample ISQ dataset to smaller size
     %   ______________________________________________________
     %
     %   Author:         Gianluca Iori (gianthk.iori@gmail.com)
     %   BSRT - Charite Berlin
-    %   Last update:  01/02/2018
+    %   Last update:  21/05/2019
     %
-    %   this class is part of the synchro toolbox    
+    %   this class is part of the simpleCT toolbox    
     %   ______________________________________________________
 
     properties
