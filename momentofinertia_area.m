@@ -34,8 +34,8 @@ function [Ixx, Iyy] = momentofinertia_area(input)
             % slicewise moment of inertia
             Ixx = zeros(1, size(input,3));
             Iyy = zeros(1, size(input,3));
-            coor(:,1) = repmat([1:size(input,2)]', size(input,1), 1);
-            coor(:,2) = reshape(repmat([1:size(input,1)], size(input,2), 1), numel(input(:,:,1)), 1);
+            coor(:,2) = repmat([1:size(input,2)]', size(input,1), 1);
+            coor(:,1) = reshape(repmat([1:size(input,1)], size(input,2), 1), numel(input(:,:,1)), 1);
 
             for slice = 1:size(input,3)
                 % distance from the x-axis
