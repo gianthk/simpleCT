@@ -1,5 +1,5 @@
 # **simpleCT**
-### A Matlab toolbox for Computed Tomography (CT) image processing
+### Matlab toolbox for Computed Tomography (CT) image processing
 
 [![View simpleCT on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://it.mathworks.com/matlabcentral/fileexchange/70572-simplect)
 
