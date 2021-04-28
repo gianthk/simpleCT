@@ -1,6 +1,8 @@
 # **simpleCT**
 ### A Matlab toolbox for Computed Tomography (CT) image processing
 
+[![View simpleCT on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://it.mathworks.com/matlabcentral/fileexchange/70572-simplect)
+
 Get started with the following examples:
 - [Example #1](https://github.com/gianthk/simpleCT/blob/master/examples/ex01_simplect_intro.MD): introduction to the toolbox
 - [Example #2](https://github.com/gianthk/simpleCT/blob/master/examples/ex02_simplect_histomorphometry.MD): first bone histomorphometry steps
