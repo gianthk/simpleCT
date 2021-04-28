@@ -17,7 +17,7 @@ function [Ixx, Iyy] = momentofinertia_area(input)
 %   Author:         Gianluca Iori (gianthk.iori@gmail.com)
 %   BSRT - Charite Berlin
 %   Created on:   11/04/2018
-%   Last update:  22/05/2018
+%   Last update:  28/04/2021
 %
 %   this function is part of the synchro toolbox    
 %   ______________________________________________________
@@ -55,8 +55,8 @@ function [Ixx, Iyy] = momentofinertia_area(input)
             
         case 2
             % area coordinates array
-            coor(:,1) = repmat([1:size(input,2)]', size(input,1), 1);
-            coor(:,2) = reshape(repmat([1:size(input,1)], size(input,2), 1), numel(input), 1);
+            coor(:,2) = repmat([1:size(input,2)]', size(input,1), 1);
+            coor(:,1) = reshape(repmat([1:size(input,1)], size(input,2), 1), numel(input), 1);
             
             % distance from the x-axis
             dist_x = coor(:,2) - cy;
